@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do App (Enhanced)</title>
+  <link rel="stylesheet" href="task04.css">
+</head>
+<body>
+  <div class="todo-container">
+    <h1> My Tasks</h1>
+
+    <div class="input-section">
+      <input type="text" id="taskInput" placeholder="Enter your task...">
+      <input type="datetime-local" id="taskDateTime">
+      <select id="priority">
+        <option value="low"> Low</option>
+        <option value="medium"> Medium</option>
+        <option value="high"> High</option>
+      </select>
+      <button onclick="addTask()">+ Add</button>
+    </div>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="task04.js"></script>
+</body>
+</html>
